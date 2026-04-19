@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "last_updated": "2026-04-19",
+  "system": "deep-consciousness",
+  "layers": {
+    "working": "memories/WORKING.md",
+    "episodic": "memories/episodic/topics.md",
+    "semantic": {
+      "user_model": "memories/semantic/user-model.md",
+      "corrections": "memories/semantic/corrections.md"
+    }
+  },
+  "topics": [
+    {
+      "keyword": "example|demo",
+      "weight": 50,
+      "file": "episodic/topics.md",
+      "section": "Projects",
+      "summary": "Example entry, replace with actual content."
+    }
+  ],
+  "token_budget": {
+    "working_max": 800,
+    "correction_trigger_keywords": ["wrong", "no", "incorrect", "don't", "stop"]
+  }
+}
